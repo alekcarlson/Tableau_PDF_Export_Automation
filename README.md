@@ -3,7 +3,7 @@
 Necessary scripts and files to export **SOME_DASHBOARD** as PDFs and upload to SF accounts
 
 # Description of the process
-- **dashboards.bat** xecutes **getpartners.py** 
+- **dashboards.bat** executes **getpartners.py** 
 - **getpartners.py** retrieves all partner districts and counties that have a partner district in the view which powers the dashboard we are trying to export
 - **dashboards.bat** logs into Tableau using **tabcmd**
 - **dashboards.bat** cycles through all districts in **districts.csv**, counties in **counties.csv**, and all parameters in **viewbyparams.csv** and creates the appropriate PDF
